@@ -1,0 +1,65 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("Kautiva.ttf");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+}
+li {
+	display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a:hover {
+    background-color: #cc6600;
+}
+.menuright{
+	float: right;
+	width: 19%
+}
+.banner{
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.table{
+	border-spacing: 0;
+}
+body{
+	font-family: myFirstFont;
+	width: 85%;
+	margin: auto; 
+}
+.sbody{
+	background-color: #F9F7F3;
+}
+.linkbelow{
+	text-decoration: none;
+	color: #6792A0;
+}
+h1{
+	color: white;
+	margin:0;
+}
+#sbody_id h2 {
+	margin: 0;
+}
